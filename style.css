@@ -7,6 +7,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Impostazioni header fisso */
+
 header{
     background-color: #fff;
     width: 100%;
@@ -47,7 +49,62 @@ header{
     left: 15px;
 }
 
+/* Bottone blu */
+
 .button{
     padding: 5px 15px;
     background-color: #0061ff;
+    color: #fff;
+}
+
+main{
+    margin-top: 60px;
+}
+
+/* Prima sezione */
+
+.blue_section{
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.large_container{
+    width: 65vw;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.large_container h1{
+    font-size: 62px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.large_container .sx_column{
+    width: 33%;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.large_container .dx_column{
+    width: 66%;
+    display: inline-block;
+    margin-top: -60px;
+}
+
+.dx_column img{
+    width: 105%;
+    position: relative;
+    top: 80px;
+}
+
+.sx_column p{
+    margin: 35px 0;
+}
+
+.sx_column a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 35px;
 }
