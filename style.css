@@ -113,9 +113,13 @@ main{
 
 /* Seconda sezione */
 
+.section_2{
+    height: auto;
+}
+
 .small_container{
     width: 55vw;
-    height: 80vh;
+    height: auto;
     max-width: 1000px;
     margin: 80px auto;
     padding: 20px;
@@ -244,4 +248,39 @@ h3{
 
 .box_enterprise .sx p{
     margin: 30px 0 15px 0;
+}
+
+/* Terza sezione testo e immagine */
+
+.container_flex2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.container_flex2 .image_sx{
+    flex-basis: 65%;
+}
+
+.image_sx img{
+    width: 100%;
+}
+
+.container_flex2 .text_dx{
+    flex-basis: 28%;
+    position: relative;
+    top: 50px;
+    left: -15px;
+}
+
+.text_dx p{
+    font-size: 12px;
+    margin: 10px 0 20px 0;
+}
+
+.text_dx a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid #000;
 }
