@@ -20,21 +20,28 @@ header{
 
 .header_container{
     display: flex;
-    align-items: center;
     width: 100%;
     margin: 0 auto;
     justify-content: space-between;
 }
 
+.header_container ul{
+    display: flex;
+}
+
 .header_container li{
     display: inline-block;
-    padding: 20px 15px;
+    padding: 15px 15px;
     font-size: 12px;
     color: rgb(26, 26, 26);
 }
 
 .dx_header li:last-child{
     color: #fff;
+}
+
+header .selected:hover{
+    border-bottom: 2px solid #0061ff;
 }
 
 .header_container a{
@@ -45,7 +52,6 @@ header{
 .header_container img{
     width: 80%;
     position: relative;
-    bottom: -4px;
     left: 15px;
 }
 
@@ -59,7 +65,7 @@ header{
 }
 
 main{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 /* Prima sezione */
@@ -445,7 +451,7 @@ h3{
 }
 
 .box_logo:hover{
-    border: 20px solid rgba(255, 255, 255, 0.5);
+    border: 15px solid rgba(255, 255, 255, 0.5);
 }
 
 /* Settima sezione blocco azzurro sotto i quadratini */
