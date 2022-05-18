@@ -436,4 +436,37 @@ h3{
     text-align: center;
 }
 
+/* Ottava sezione con FAQ */
+
+.faq .small_container ul{
+    list-style: none;
+}
+
+.faq .small_container .list .fa-angle-down{
+    position: relative;
+    left: 25%;
+}
+
+.faq .small_container ul li{
+    padding: 20px 0;
+    border-bottom: 1px #818282 solid;
+}
+
+.faq .small_container ul li:first-child{
+    border-top: 1px #818282 solid;
+}
+
+.question{
+    font-size: 12px;
+}
+
+.faq .small_container ul li p{
+    display: none;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.faq .small_container ul li:hover .answer{
+    display: block;
+}
 
