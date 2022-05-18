@@ -55,6 +55,10 @@ header .selected:hover{
     left: 15px;
 }
 
+a:visited{
+    color:#0061ff;
+}
+
 /* Bottone blu */
 
 .button{
@@ -351,7 +355,7 @@ h3{
 /* Quinta sezione con titolo e link */
 
 .container_flex2 .content_sx h2{
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 
 /* Sesta sezione con rettangoli laterali e testo centrale */
