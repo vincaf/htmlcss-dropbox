@@ -113,7 +113,7 @@ main{
 
 /* Seconda sezione */
 
-.section_2{
+#section_2{
     height: auto;
 }
 
@@ -183,7 +183,7 @@ main{
 }
 
 .box .details{
-    padding: 15px;
+    padding: 15px 0;
 }
 
 .box .plan{
@@ -191,7 +191,7 @@ main{
 }
 
 .box .plan_bonus{
-    padding: 15px;
+    padding: 15px 0;
 }
 
 .box div{
@@ -221,6 +221,40 @@ h3{
 
 .box li{
     margin: 10px 0;
+    list-style: none;
+}
+
+.list-icon::before{
+    font-weight: 900;
+    margin-right: 5px;
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 2px;
+}
+
+.list-icon.share::before{
+    content: "\f1e0";
+}
+
+.list-icon.user::before{
+    content: "\f007";
+}
+
+.list-icon.users::before{
+    content: "\f0c0";
+}
+
+.list-icon.folder::before{
+    content: "\f07b";
+}
+
+.list-icon.check::before{
+    content: "\f00c";
+    color: #1166ff;
+}
+
+.list-icon{
+    display: flex;
 }
 
 /* Blocco sotto i 3 box */
@@ -316,7 +350,7 @@ h3{
 
 /* Sesta sezione con rettangoli laterali e testo centrale */
 
-.section6{
+#section6{
     margin-top: 100px;
 }
 
@@ -410,10 +444,15 @@ h3{
     margin: 20px 0;
 }
 
+.box_logo:hover{
+    border: 20px solid rgba(255, 255, 255, 0.5);
+}
+
 /* Settima sezione blocco azzurro sotto i quadratini */
 
-.section7{
+#section7{
     background-color: #b4d0e7;
+    height: auto;
 }
 
 .container_flex_5{
@@ -421,10 +460,13 @@ h3{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    position: relative;
+    bottom: 20px;
 }
 
 .container_flex_5 .sx h2{
     color: #61082b;
+    align-self: center;
 }
 
 .container_flex_5 .dx a{
@@ -464,7 +506,7 @@ h3{
     font-size: 12px;
 }
 
-.faq .small_container ul li p{
+.faq .small_container ul li .answer{
     display: none;
     font-size: 12px;
     margin-top: 20px;
@@ -505,6 +547,7 @@ footer li{
     list-style-type: none;
     font-size: 12px;
     margin: 10px 0;
+    cursor: pointer;
 }
 
 footer ul li:first-child{
@@ -523,4 +566,8 @@ footer hr{
 footer .language span{
     color: #959595;
     font-size: 12px;
+}
+
+footer .language .change{
+    cursor: pointer;
 }
